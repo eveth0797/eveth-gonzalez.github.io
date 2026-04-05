@@ -98,6 +98,26 @@ img {
   transition: color 0.25s ease;
 }
 
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 1rem;
+  border-left: 1px solid var(--border);
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.lang-switcher a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.lang-switcher a:hover {
+  color: var(--text);
+}
+
 .site-nav a:hover,
 .site-nav a:focus-visible,
 .contact-links a:hover,

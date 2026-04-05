@@ -1,56 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Blog y artículos de investigación de Eveth Gonzalez." />
-    <title>Blog | Eveth Gonzalez</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav-wrapper">
-        <a class="brand" href="index.html">Eveth Gonzalez</a>
-        <nav class="site-nav" aria-label="Navegación principal">
-          <a href="index.html#about">Sobre mí</a>
-          <a href="index.html#project">Proyecto</a>
-          <a href="index.html#skills">Habilidades</a>
-          <a href="blog.html" class="active" style="color: var(--accent);">Blog</a>
-          <a href="investigacion.html">Investigación</a>
-          <a href="index.html#contact">Contacto</a>
-        </nav>
-      </div>
-    </header>
 
-    <main class="page-content">
-      <section class="content-section">
-        <div class="container blog-list-container">
-          <!-- SECCIÓN DE ARTÍCULOS PERSONALES -->
-          <div class="section-heading compact">
-            <span class="section-tag">Blog</span>
-            <h2>Artículos Personales</h2>
-            <p style="color: var(--muted)">Reflexiones, experiencias y otros temas de interés personal y profesional.</p>
-          </div>
-          
-          <div class="blog-list" style="margin-bottom: 4rem;">
-            <!-- Artículo Personal de Ejemplo -->
-            <article class="blog-list-item">
-              <div class="blog-item-meta">
-                <span class="blog-date">29 Mar, 2026</span>
-              </div>
-              <div class="blog-item-content">
-                <h3><a href="plantilla-articulo.html">Mi experiencia aprendiendo nuevas tecnologías</a></h3>
-                <p>Una breve reflexión sobre los retos y satisfacciones de adentrarse en nuevos lenguajes de programación y herramientas de simulación.</p>
-              </div>
-            </article>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Blog y artículos de investigación de Eveth Gonzalez." />
+  <title>Blog | Eveth Gonzalez</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a class="brand" href="index.html">Eveth Gonzalez</a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="index.html#about">Sobre mí</a>
+        <a href="index.html#project">Proyecto</a>
+        <a href="index.html#skills">Habilidades</a>
+        <a href="blog.html" class="active" style="color: var(--accent);">Blog</a>
+        <a href="investigacion.html">Investigación</a>
+        <a href="index.html#contact">Contacto</a>
+        <div class="lang-switcher">
+          <a href="blog.html" class="active" style="color: var(--accent); font-weight: 600;">ES</a> | <a href="blog-en.html">EN</a>
         </div>
-      </section>
-    </main>
-  </body>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <section class="content-section">
+      <div class="container blog-list-container">
+        <!-- SECCIÓN DE ARTÍCULOS PERSONALES -->
+        <div class="section-heading compact">
+          <span class="section-tag">Blog</span>
+          <h2>Artículos Personales</h2>
+          <p style="color: var(--muted)">Reflexiones, experiencias y otros temas de interés personal y profesional.</p>
+        </div>
+
+        <div class="blog-list" style="margin-bottom: 4rem;">
+          <!-- Artículo Personal de Ejemplo -->
+          <article class="blog-list-item">
+            <div class="blog-item-meta">
+              <span class="blog-date">05 Abr, 2026</span>
+            </div>
+            <div class="blog-item-content">
+              <h3><a href="plantilla-articulo.html">El Costo Oculto de Estudiar en el Extranjero</a></h3>
+              <p>Una breve reflexión sobre los retos y satisfacciones de adentrarse en nuevos lenguajes de programación
+                y herramientas de simulación.</p>
+            </div>
+          </article>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
